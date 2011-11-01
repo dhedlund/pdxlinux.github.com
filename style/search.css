@@ -1,0 +1,149 @@
+fieldset
+{
+  background: #c7c7c7;
+}
+
+fieldset > legend
+{
+  color: #eeeeee;
+  background: #003399;
+  border : thin solid #999999;
+  /* top right bottom left */
+  padding: 0.1em 0.5em 0.1em 0.5em;
+}
+
+input
+{
+  color: black;
+  background: white;
+}
+input.button
+{
+  cursor: pointer;
+  color: #black;
+  background: #c7c7c7;
+}
+
+div.resultlist
+{
+  background: #eeeeee;
+  color: black;
+  border : thin solid #999999;
+  padding: 0.25em 0.25em 0.25em 0.25em;
+  margin: 0 0 0 0;
+}
+
+div.resultitem
+{
+  border-bottom: thin solid #999999;
+  margin-bottom: 0.5ex;
+/*   line-height: 1.2; */
+}
+
+span.rank
+{
+  background: white;
+  font-weight: bold;
+  border: thin solid #999999;
+}
+
+div.resultitem > a
+{
+  font-weight: bold;
+  font-size: 110%;
+}
+
+div.resultsummary
+{
+/*   background: #d3d3d3; */
+}
+
+span.rfcauthor
+{
+  font-variant: small-caps;
+}
+
+span.rfcdate
+{
+  font-style: oblique;
+}
+
+span.rfcstatus
+{
+  
+}
+
+span.current
+{
+  color: black !important;
+}
+span.obsoleted
+{
+  color: #0066ff !important;	/* bright blue */
+}
+
+span.rfcobsoleted-by
+{
+  
+}
+span.rfcobsoletes
+{
+  
+}
+span.rfcupdated-by
+{
+  
+}
+span.rfcupdates
+{
+  
+}
+
+/* Can't happen from the search interface; if it was not issued, it
+ * cannot have been indexed by swish++.
+ */
+span.not-issued
+{
+  color: #b7b7b7 !important;	/* gray71 */
+  background: #474747 !important; /* gray28 */
+}
+span.standard
+{
+/*   background: white !important; */
+}
+span.draft-standard
+{
+/*   background: #ffffcc !important; */ /* pale yellow */
+}
+span.proposed-standard
+{
+/*   background: #ffffcc !important; */ /* pale yellow */
+}
+span.best-current-practice
+{
+/*   background: #ccccff !important;  *//* light violet */
+}
+span.experimental
+{
+/*   background: #ffcc00 !important; */ /* golden orange */
+}
+span.informational
+{
+/*   background: cyan !important; */
+}
+span.for-your-information
+{
+/*   background: #99ccff !important; */ /* sky blue */
+}
+span.historic
+{
+/*   background: #66ff99 !important; */ /* sea green */
+}
+span.old
+{
+/*   color: #6f6f6f !important; */	/* dark grey */
+}
+span.unknown
+{
+/*   background: #b7b7b7 !important;  */ /* gray71 */
+}

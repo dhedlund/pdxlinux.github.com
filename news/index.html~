@@ -1,0 +1,25 @@
+ <!DOCTYPE div PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<div class="contentbody">
+    </div>
+<%method BROWSER_TITLE>
+__DEFAULT__BROWSER_TITLE__
+</%method>
+<%method TITLE>
+Portland Linux/Unix Group (PLUG)
+</%method>
+%# Local variables:
+%# mode: html
+%# mmm-classes: (mason embedded-css)
+%# sgml-omittag:t
+%# sgml-shorttag:t
+%# sgml-namecase-general:t
+%# sgml-general-insert-case:lower
+%# sgml-minimize-attributes:nil
+%# sgml-always-quote-attributes:t
+%# sgml-indent-step:1
+%# sgml-indent-data:t
+%# sgml-parent-document:nil
+%# sgml-exposed-tags:nil
+%# sgml-local-catalogs:("/etc/sgml/catalog")
+%# sgml-local-ecat-files:("ECAT" "~/sgml/ECAT" "/usr/lib/sgml/ECAT" "/usr/local/lib/sgml/ECAT")
+%# End:

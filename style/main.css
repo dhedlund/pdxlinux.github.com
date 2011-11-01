@@ -1,0 +1,217 @@
+*
+{
+  color: inherit;
+  background: inherit;
+}
+
+body
+{
+  color : black;
+  background : #eef7ff;
+  font-family : Verdana,Lucida,sans-serif;
+  margin : 0 0 0 0;
+  padding : 0 0 0 0;
+}
+
+.standardsNote
+{
+  display: none;
+}
+
+/* a:link */
+/* { */
+/*   color: #0b2b6b; */
+/*   background: inherit; */
+/*   cursor: pointer; */
+/*   border: thin hidden; */
+/*   text-decoration: none; */
+/* } */
+/* a:visited */
+/* { */
+/*   color: #ff0066; */
+/*   background: inherit; */
+/*   cursor: pointer; */
+/*   border: thin hidden; */
+/*   text-decoration: none; */
+/* } */
+#NavBar a
+{
+  font-size : 90%;
+  font-weight: bold;
+}
+#NavBar a:first-child
+{
+  padding-left : 0.5em;
+}
+/* #NavBar a:visited */
+/* { */
+/*   color: #0b2b6b; */
+/* } */
+/* a:hover */
+/* { */
+/*   color: #0b2b6b; */
+/*   background: #d7d7d7 !important; /* gray84 */ */
+/*   cursor: pointer; */
+/*   border: thin dashed #ff0066;	/* lipstick red */ */
+/*   text-decoration: none; */
+/* } */
+
+#TitleBar, #NavBar
+{
+  margin : 0 0 0 0;
+  padding : 0 0 0 0;
+  border : none;
+}
+#TitleBar
+{
+  background : #003399;
+}
+#TitleBar span.title
+{
+  /* Roughly the colors of the Oregon state flag. */
+  color: #f5c92a;
+  background: inherit;
+  font-size : 200%;
+  font-weight : bold;
+  margin : inherit;
+  padding : inherit;
+  text-align: center;
+  vertical-align: middle;
+}
+#underConstructionIMG
+{ 
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #eeeeee;
+}
+#NavBar
+{
+  margin : 0 0 0 0;
+  padding : 0 0 0 0;
+  background : #eeeeee;
+  color: black;
+  border : thin solid #999999;
+  height: 2.5ex;
+  vertical-align: middle;
+}
+
+#ReminderBar
+{
+  background : #ccccff;
+  color: black;
+  border : thin solid #9999ff;
+  font-size: 90%;
+  padding-left : 0.25em;
+}
+#modperlIMG
+{
+  padding-left: 20px;
+}
+#masonhqIMG
+{ 
+}
+#mstiIMG
+{
+  padding-right: 4px;
+  padding-left: 4px;
+}
+#debianIMG
+{
+  padding-right: 2px;
+}
+
+#CopyrightFooter
+{
+  font-size : 80%;
+  font-weight : normal;
+  padding-top: 2px;
+  padding-left : 0.25em;
+}
+
+img
+{ 
+  background: transparent;
+}
+
+/*
+ * Each subpage should start inside a DOCTYPE div with class
+ * "contentbody".
+ *
+ */
+div.contentbody
+{
+  margin-left   : 0.5em;
+  margin-right  : 0.5em;
+  margin-top    : 1ex;
+  margin-bottom : 1ex;
+}
+
+/* Proper Noun -- People's names */
+span.pn
+{
+  font-variant: small-caps;
+}
+
+/* Company names */
+span.compname
+{ 
+  text-decoration: underline;
+}
+
+.important
+{ 
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 4px 4px 4px 4px;
+  border: thin solid #9999ff;
+  background : #eeeeee;
+}
+
+li
+{
+  margin-top: 1ex;
+}
+
+div.contentbody h1
+{ 
+  font-weight: bold;
+  font-size: 200%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+div.contentbody h1
+{
+  font-size: 150%;
+}
+
+div.contentbody h2
+{
+  font-size: 130%;
+  font-weight: bold;
+}
+
+div.contentbody h3
+{ 
+  font-size: 110%
+  font-weight: bold;
+}
+
+div.contentbody h4
+{ 
+  font-size: 100%
+  font-weight: bold;
+}
+
+img.rattle
+{
+  position: relative;
+  background: transparent;
+}
+
+/*
+ * Local Variables:
+ * mode: css
+ * End:
+ */

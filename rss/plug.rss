@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://lists.pdxlinux.org/pipermail/plug/">
+<title>PLUG Discussion List</title>
+<link>http://lists.pdxlinux.org/pipermail/plug/</link>
+<description></description>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="" />
+  <rdf:li rdf:resource="" />
+  <rdf:li rdf:resource="" />
+  <rdf:li rdf:resource="" />
+  <rdf:li rdf:resource="" />
+  <rdf:li rdf:resource="" />
+  <rdf:li rdf:resource="" />
+  <rdf:li rdf:resource="" />
+  <rdf:li rdf:resource="" />
+  <rdf:li rdf:resource="" />
+ </rdf:Seq>
+</items>
+</channel>
+
+<item rdf:about="">
+<title>Keith Lofstrom &lt;keithl@kl-ic.com>: Re: [PLUG] PLUG business card (2)</title>
+<link></link>
+<description>&lt;pre>On 10/3/05, Keith Lofstrom &lt;keithl@kl-ic.com&gt; wrote:
+&gt;
+&gt; &gt; of paper for the URL, it would be quicker to hand them a business
+&gt; &gt; card with useful pointers and info.  Who would be interested in
+&gt; &gt; buying some from me (at cost) if I had some printed up?
+...
+&gt; &gt; Does this interest people?
+
+On Mon, Oct 03, 2005 at 12:02:42PM -0700, Jason R. Martin wrote:
+&gt; Sounds interesting, but what about the option of printing your own? 
+&gt; Simply creating the design and making it available on the website for
+&gt; anyone to download and print on standard sized business cards?  Seems
+&gt; cheaper for those of us likely to hand out about 5 in our lifetimes
+&gt; :-)
+&gt; 
+&gt; Jason
+
+Of course I will open-source the card design and put it on my website. 
+But at a nickel a piece, it is a lot easier to have them printed.
+
+Can I put you down for 5 for a quarter?  :-)
+
+Keith
+
+-- 
+Keith Lofstrom          keithl@keithl.com         Voice (503)-520-1993
+KLIC --- Keith Lofstrom Integrated Circuits --- &quot;Your Ideas in Silicon&quot;
+Design Contracting in Bipolar and CMOS - Analog, Digital, and Scan ICs
+
+&lt;/pre></description>
+<dc:date>Mon, 3 Oct 2005 12:29:35 -0700</dc:date>
+</item>
+
+<item rdf:about="">
+<title>"slinkymax0r" &lt;slinkywizard@integraonline.com>: Re: [PLUG] RAID for remote filesystems</title>
+<link></link>
+<description>&lt;pre>&gt; Does anyone know if it's possible to RAID remote filesystems? I'm thinking
+&gt; of being able to combine multiple sshfs or gmailfs filesystems into one
+&gt; mount point.
+
+RAID is a block level or byte level technology... not a file level one. 
+You could certainly mirror data between two systems, but it sounds like
+you're more looking into representing multiple mount points as a single
+name space.
+
+Regards,
+Max
+
+
+
+
+&gt; Thanks,
+&gt; ~M
+&gt; _______________________________________________
+&gt; PLUG mailing list
+&gt; PLUG@lists.pdxlinux.org
+&gt; http://lists.pdxlinux.org/mailman/listinfo/plug
+&gt;
+
+
+&lt;/pre></description>
+<dc:date>Mon, 3 Oct 2005 12:27:56 -0700 (PDT)</dc:date>
+</item>
+
+<item rdf:about="">
+<title>"slinkymax0r" &lt;slinkywizard@integraonline.com>: Re: [PLUG] RAID for remote filesystems</title>
+<link></link>
+<description>&lt;pre>&gt; Does anyone know if it's possible to RAID remote filesystems? I'm thinking
+&gt; of being able to combine multiple sshfs or gmailfs filesystems into one
+&gt; mount point.
+
+RAID is a block level or byte level technology... not a file level one. 
+You could certainly mirror data between two systems, but it sounds like
+you're more looking into representing multiple mount points as a single
+name space.
+
+Regards,
+Max
+
+
+
+
+&gt; Thanks,
+&gt; ~M
+&gt; _______________________________________________
+&gt; PLUG mailing list
+&gt; PLUG@lists.pdxlinux.org
+&gt; http://lists.pdxlinux.org/mailman/listinfo/plug
+&gt;
+
+
+&lt;/pre></description>
+<dc:date>Mon, 3 Oct 2005 12:27:56 -0700 (PDT)</dc:date>
+</item>
+
+<item rdf:about="">
+<title>David Pool &lt;dpool@hevanet.com>: [PLUG] Interesting article</title>
+<link></link>
+<description>&lt;pre>There's an interesting article being carried on News4Neighbors as well
+as Linux Today and BlueOregon:
+
+http://www.news4neighbors.net/article.pl?sid=05/10/03/195242
+
+Describes the trip down to OSU's open source labs while covering a
+variety of related issues from HB 2892, to the Bus Project and POSSE.
+
+David
+
+
+&lt;/pre></description>
+<dc:date>Mon, 03 Oct 2005 12:24:30 -0700</dc:date>
+</item>
+
+<item rdf:about="">
+<title>"Jason R. Martin" &lt;nsxfreddy@gmail.com>: Re: [PLUG] PLUG business card</title>
+<link></link>
+<description>&lt;pre>On 10/3/05, Keith Lofstrom &lt;keithl@kl-ic.com&gt; wrote:
+&gt;
+&gt; Sometimes people ask about PLUG - or don't run away fast enough
+&gt; when I tell them about it :-) .   Rather than hunting down a scrap
+&gt; of paper for the URL, it would be quicker to hand them a business
+&gt; card with useful pointers and info.  Who would be interested in
+&gt; buying some from me (at cost) if I had some printed up?
+&gt;
+&gt; Two thousand color, double-sided cards from Overnightprints.com
+&gt; costs $90 or so.  I've used them a few times before.  The quality
+&gt; is good - if you proof them correctly!
+&gt;
+&gt; I was thinking about a card with a group photo of us on the
+&gt; front, partly whited out, with &quot;PLUG&quot; and &quot;www.pdxlinux.org&quot;
+&gt; overlaid in large black letters.   Perhaps someone has a large
+&gt; inflatable Tux, or perhaps we GIMP the Tux+Umbrella logo into
+&gt; the photo.
+&gt;
+&gt; On the back, a smaller print listing of the meetings when&amp;where,
+&gt; with a disclaimer to check the website in case they change.  We've
+&gt; been fairly regular about times and venues, though Murphy says
+&gt; something will change as soon as we print cards :-/
+&gt;
+&gt; Of course, I would put the digital proofs up on the web (as pdfs)
+&gt; before I sent in the order.
+&gt;
+&gt; I can bring a digital camera Thursday, and if you doesn't want
+&gt; to appear in the photo, that's OK, you can hold the camera.
+&gt;
+&gt; Does this interest people?
+
+Sounds interesting, but what about the option of printing your own? 
+Simply creating the design and making it available on the website for
+anyone to download and print on standard sized business cards?  Seems
+cheaper for those of us likely to hand out about 5 in our lifetimes
+:-)
+
+Jason
+
+&lt;/pre></description>
+<dc:date>Mon, 3 Oct 2005 12:02:42 -0700</dc:date>
+</item>
+
+<item rdf:about="">
+<title>Keith Lofstrom &lt;keithl@kl-ic.com>: [PLUG] PLUG business card</title>
+<link></link>
+<description>&lt;pre>
+Sometimes people ask about PLUG - or don't run away fast enough
+when I tell them about it :-) .   Rather than hunting down a scrap
+of paper for the URL, it would be quicker to hand them a business
+card with useful pointers and info.  Who would be interested in
+buying some from me (at cost) if I had some printed up?
+
+Two thousand color, double-sided cards from Overnightprints.com
+costs $90 or so.  I've used them a few times before.  The quality
+is good - if you proof them correctly!
+
+I was thinking about a card with a group photo of us on the
+front, partly whited out, with &quot;PLUG&quot; and &quot;www.pdxlinux.org&quot;
+overlaid in large black letters.   Perhaps someone has a large
+inflatable Tux, or perhaps we GIMP the Tux+Umbrella logo into
+the photo.  
+
+On the back, a smaller print listing of the meetings when&amp;where,
+with a disclaimer to check the website in case they change.  We've
+been fairly regular about times and venues, though Murphy says 
+something will change as soon as we print cards :-/
+
+Of course, I would put the digital proofs up on the web (as pdfs)
+before I sent in the order.
+
+I can bring a digital camera Thursday, and if you doesn't want
+to appear in the photo, that's OK, you can hold the camera.
+
+Does this interest people?
+
+Keith
+
+-- 
+Keith Lofstrom          keithl@keithl.com         Voice (503)-520-1993
+KLIC --- Keith Lofstrom Integrated Circuits --- &quot;Your Ideas in Silicon&quot;
+Design Contracting in Bipolar and CMOS - Analog, Digital, and Scan ICs
+
+&lt;/pre></description>
+<dc:date>Mon, 3 Oct 2005 11:45:13 -0700</dc:date>
+</item>
+
+<item rdf:about="">
+<title>Eli Stair &lt;eli.stair@gmail.com>: Re: [PLUG] RAID for remote filesystems</title>
+<link></link>
+<description>&lt;pre>Since your filesystem needs to be laid on TOP of a block-level device,
+you can't really do what you're looking to... the closest
+approximation would be using a cluster filesystem that takes into
+account some underlying fabric connecting a bunch of block devices
+(Lustre, PVFS, GFS, etc)...
+
+Though it would likely be possible to hack together a bunch of network
+block devices mounted locally and do this.  I'm not sure about your
+sshfs or gmailfs filesystems, I'm guessing they won't enable you to do
+that however.  Perhaps if you could kludge a sparse file as a block
+device (cryptoloop or somesuch) accessed OVER these and mounted
+locally you could do it?  If you're accessing these over commodity
+internet with so many layers of abstraction, it's unlikely to be
+usable or stable however :)
+
+/eli
+
+On 10/3/05, Matt Alexander &lt;lowbassman@gmail.com&gt; wrote:
+&gt; Does anyone know if it's possible to RAID remote filesystems? I'm thinking
+&gt; of being able to combine multiple sshfs or gmailfs filesystems into one
+&gt; mount point.
+&gt; Thanks,
+&gt; ~M
+&gt; _______________________________________________
+&gt; PLUG mailing list
+&gt; PLUG@lists.pdxlinux.org
+&gt; http://lists.pdxlinux.org/mailman/listinfo/plug
+&gt;
+
+&lt;/pre></description>
+<dc:date>Mon, 3 Oct 2005 10:20:14 -0700</dc:date>
+</item>
+
+<item rdf:about="">
+<title>Matt Alexander &lt;lowbassman@gmail.com>: [PLUG] RAID for remote filesystems</title>
+<link></link>
+<description>&lt;pre>Does anyone know if it's possible to RAID remote filesystems? I'm thinking
+of being able to combine multiple sshfs or gmailfs filesystems into one
+mount point.
+Thanks,
+~M
+
+&lt;/pre></description>
+<dc:date>Mon, 3 Oct 2005 10:05:36 -0700</dc:date>
+</item>
+
+<item rdf:about="">
+<title>Galen Seitz &lt;galens@seitzassoc.com>: [PLUG] fedora core 4 and Intel wireless 2200BG constant arp traffic</title>
+<link></link>
+<description>&lt;pre>
+The wireless indicator on my laptop has been flashing for no apparent
+reason, so I ran tcpdump.  It seems to be sending out arp requests every
+2 seconds or so.  My network only uses 192.168.1.x.  My google searches for
+192.168.30.32 have only brought up references to Cisco equipment.  Any
+ideas what might be generating this traffic?
+
+09:52:23.745963 arp who-has 192.168.30.32 (Broadcast) tell 192.168.30.32
+09:52:25.849095 arp who-has 192.168.30.32 (Broadcast) tell 192.168.30.32
+09:52:27.883470 arp who-has 192.168.30.32 (Broadcast) tell 192.168.30.32
+09:52:29.936135 arp who-has 192.168.30.32 (Broadcast) tell 192.168.30.32
+09:52:32.010254 arp who-has 192.168.30.32 (Broadcast) tell 192.168.30.32
+09:52:34.063133 arp who-has 192.168.30.32 (Broadcast) tell 192.168.30.32
+
+The laptop is a Thinkpad X40 with an Intel 2200BG wireless card,
+and Fedora core 4, and the kernel version is 2.6.12.1456_FC4.
+
+thanks,
+galen
+
+&lt;/pre></description>
+<dc:date>Mon, 03 Oct 2005 10:03:19 -0700</dc:date>
+</item>
+
+<item rdf:about="">
+<title>Paul Heinlein &lt;heinlein@madboa.com>: Re: [PLUG] rpm spec file macro expansion</title>
+<link></link>
+<description>&lt;pre>On Sun, 2 Oct 2005, Galen Seitz wrote:
+
+&gt; I'm trying to build some cross tools for the AVR microcontrollers, 
+&gt; and I need to work around an issue with file collisions.  When I 
+&gt; build cross versions of binutils, gcc, and gdb, the info files that 
+&gt; get created have the same name and path as the corresponding files 
+&gt; for the native host tools.  In order to eliminate the conflict, I'd 
+&gt; like to do something like the following in my spec file:
+&gt;
+&gt; %define _infodir %{_infodir}/avr
+
+Generally, I'd just a) specify your longer path throughout the spec 
+file or b) define _infodir with a macro further up the chain or with a 
+full pathname
+
+a) When building and installing, specify --infodir=%{_infodir}/avr,
+    and include that path in your %files section.
+
+b) %define _infodir %{_datadir}/info/avr
+
+    or
+
+    %define _infodir /usr/share/info/avr
+
+-- 
+Paul Heinlein &lt;&gt; heinlein@madboa.com &lt;&gt; www.madboa.com
+
+&lt;/pre></description>
+<dc:date>Mon, 3 Oct 2005 09:32:09 -0700 (PDT)</dc:date>
+</item>
+
+</rdf:RDF>

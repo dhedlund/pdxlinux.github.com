@@ -1,0 +1,18 @@
+@media print {
+	#header {
+		padding-left: 0px;
+	}
+
+	hr.edgesplit	{
+		width: 100%;
+	}
+
+	#sidebar {
+		display: none;
+	}
+
+	#content {
+		margin-left: 0em;
+		margin-right: 0em;
+	}
+}

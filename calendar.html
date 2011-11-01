@@ -1,0 +1,50 @@
+ <!DOCTYPE div PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<div class="contentbody">
+
+ <h1 style="color: red; background: inherit;">Under Construction</h1>
+
+ <p>
+  Just a static calendar for now... First I must create the database!
+ </p>
+
+ <p style="font-size: 80%;">
+   You can see some of my code in the <!--
+
+   --><a href="http://cvs.pdxlinux.org/">PLUG CVS Repository</a><!--
+
+   -->.  See the "PLUG" and "website" modules, and:<br>
+
+   <a href="http://www.pdxlinux.org/doc/RFC/proposed-standard/rfc2445.txt.gz">
+    RFC 2445
+   </a>
+ </p>
+<% $cal->as_HTML %>
+</div>
+<%method BROWSER_TITLE>Event Calendar</%method>
+<%method TITLE>Portland Linux/Unix Group  Calendar</%method>
+<%method logoimg>/img/plug-logo-72old-btn.png</%method>
+<%method last_updated>
+<!-- Created: Sun Jul 21 21:33:22 PDT 2002 -->
+<!-- hhmts start -->
+Last modified: Mon Jan  6 13:51:15 PST 2003
+<!-- hhmts end -->
+</%method>
+<%init>;
+ my $cal = PLUG::Calendar->build_calendar();
+</%init>
+%# Local variables:
+%# mode: xml
+%# mmm-classes: (mason embedded-css embedded-javascript)
+%# sgml-omittag:t
+%# sgml-shorttag:t
+%# sgml-namecase-general:t
+%# sgml-general-insert-case:lower
+%# sgml-minimize-attributes:nil
+%# sgml-always-quote-attributes:t
+%# sgml-indent-step:1
+%# sgml-indent-data:t
+%# sgml-parent-document:nil
+%# sgml-exposed-tags:nil
+%# sgml-local-catalogs:("/etc/sgml/catalog")
+%# sgml-local-ecat-files:("ECAT" "~/sgml/ECAT" "/usr/lib/sgml/ECAT" "/usr/local/lib/sgml/ECAT")
+%# End:

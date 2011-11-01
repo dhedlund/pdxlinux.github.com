@@ -1,0 +1,75 @@
+<!DOCTYPE div PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<div class="contentbody">
+
+ <&| /_boxed.html, class => 'h1' &>Resources and Links</&>
+
+ <h3>Organization, Decision making, and Corporate Government</h3>
+
+ <ul>
+  <li>
+   <a href="http://www.constitution.org/">
+    The Constitution Society
+   </a>
+  </li>
+  <li>
+   <a href="http://www.pdxlinux.org/doc/debian/constitution.txt">
+    The Debian Constitution
+   </a>
+  </li>
+  <li>
+   <a href="http://www.constitution.org/rror/rror--00.htm">
+    Robert's Rules of Order Revised
+   </a>
+  </li>
+  <li>
+   <a href="http://www.consensus.net/">
+    Guide to Formal Concensus
+   </a>
+  </li>
+  <li>
+   <a href="http://www.casagordita.com/consensus.htm">
+    Concensus Decision Making
+   </a>
+  </li>
+  <li>
+   <a href="http://www.actupny.org/documents/CDdocuments/Consensus.html">
+    Civil Disobedience Training (Concensus Decision Making)
+   </a>
+  </li>
+  <li>
+   <a href="http://www.iaf-world.org/IAF98/estes.html">
+    IAF (International Association of Facilitators) "Concensus and Community"
+   </a>
+  </li>
+<!--   <li> -->
+<!--    <a href=""> -->
+<!--    </a> -->
+<!--   </li> -->
+ </ul>
+
+</div>
+<%method BROWSER_TITLE>Home</%method>
+<%method TITLE>Portland Linux/Unix <font color="red">G</font>roup</%method>
+<%method last_updated>
+<!-- Created: Sun Jul 21 21:33:22 PDT 2002 -->
+<!-- hhmts start -->
+Last modified: Fri Sep  6 12:49:46 PDT 2002
+<!-- hhmts end -->
+</%method>
+%# Local variables:
+%# mode: html
+%# mmm-classes: (mason embedded-css)
+%# sgml-omittag:t
+%# sgml-shorttag:t
+%# sgml-namecase-general:t
+%# sgml-general-insert-case:lower
+%# sgml-minimize-attributes:nil
+%# sgml-always-quote-attributes:t
+%# sgml-indent-step:1
+%# sgml-indent-data:t
+%# sgml-parent-document:nil
+%# sgml-exposed-tags:nil
+%# sgml-local-catalogs:("/etc/sgml/catalog")
+%# sgml-local-ecat-files:("ECAT" "~/sgml/ECAT" "/usr/lib/sgml/ECAT" "/usr/local/lib/sgml/ECAT")
+%# End:
+

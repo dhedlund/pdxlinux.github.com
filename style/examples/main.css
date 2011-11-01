@@ -1,0 +1,193 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	color: black;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+
+:link {
+	color: rgb(70,130,180);
+}
+
+:link:hover {
+  color: blue;
+}
+
+:visited:hover {
+	color: blue;
+}
+
+
+#header {
+	padding: 0;
+	padding-top: 5px; 
+	padding-left: 5%;
+}
+
+#logo {
+	border: none;
+}
+
+#locationlinks {
+	font-size: small;
+
+	text-align: right;
+
+	padding: 0px;
+	margin: 0px;
+
+	margin-top: -1.5em;
+	margin-right: 50px;
+}
+
+
+#sidebar {
+	float: left;
+	width: 10em;
+
+	margin-left: 1em;
+	margin-top: 2ex;
+	padding-right: 1em;
+	padding-bottom: 4ex;
+
+	border-right: 2px solid rgb(70,130,180);
+	-moz-border-right-colors: rgb(70,130,180) lightgrey;
+}
+
+
+#search-box {
+  width: 8em;
+}
+
+
+#catagories {
+	font-size: small;
+}
+
+.category
+{
+	margin-bottom: 1em;
+}
+
+#hostedby {
+	margin-top: 1ex;
+
+	font-size: medium;
+}
+
+
+
+#content {
+	margin-left: 13em;
+	margin-right: 5em;
+	margin-top: 2ex;
+}
+
+
+
+.boxtitle
+{
+  margin-top: 1em;
+
+	font-size: large;
+
+  color: rgb(70,130,180);
+}
+
+.box
+{
+  background-color: rgb(95%,95%,95%);
+  border: 1px dotted rgb(70,130,180);
+  padding: 5px;
+  position: relative;
+}
+
+.floatinglink
+{
+	font-size: small;
+
+  padding-left: 1em;
+  width: 16em;
+  height: 5em;
+  float: left;
+}
+
+
+h1, h2, h3, h4, h5 {
+	margin-bottom: 2px;
+
+	color: rgb(70,130,180);
+}
+
+
+h3 + p, h3 + div.right + p {
+	margin-top: 0px;
+}
+
+
+
+hr.edgesplit {
+  width: 92%;
+
+	margin-top: 0px;
+
+	clear: both;
+}
+
+hr {
+  width: 80%;
+  height: 2px;
+
+  margin-top: 1ex;
+
+  border: none;
+  border-top: 1px solid rgb(70,130,180);
+  border-bottom: 1px solid lightgrey;
+}
+
+
+div.left
+{
+	text-align: left;
+	height: 1.1em;
+}
+
+div.center
+{
+	text-align: center;
+	margin-top: -1.1em;
+	height: 1.1em;
+}
+
+div.right
+{
+	text-align: right;
+	margin-top: -1.1em;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.code
+{
+	font-family: monospace;
+}
+
+.small
+{
+	font-size: small;
+}
+
+#copyblock {
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+  text-align: right;
+  margin-right: 5em;
+
+	font-size: small;
+}

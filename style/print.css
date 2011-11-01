@@ -1,0 +1,12 @@
+@media print {
+  #TitleBar, #NavBar, #ReminderBar, #CopyrightFooter img.rattle
+  {
+    display: none;
+  }
+
+  .contentbody
+  {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+}

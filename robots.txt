@@ -1,0 +1,15 @@
+User-Agent: *
+Disallow: /search.html
+Disallow: /img/
+Disallow: /script/
+Disallow: /style/
+Disallow: /cgi-bin/
+Disallow: /secure/
+Disallow: /perl/
+Disallow: /webalizer/
+Disallow: /ldapexplorer/
+Disallow: /mailman/
+Disallow: /pipermail/
+Disallow: /squirrelmail/
+Disallow: /dc/
+Disallow: /doc/HTML/
