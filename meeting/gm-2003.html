@@ -1,17 +1,96 @@
- <!DOCTYPE div PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <link rel="icon" href="/img/plug-logo-32t.png" type="image/png"/>
+  <link href="/style/main.css" type="text/css" rel="stylesheet" media="screen"/>
+  <link href="/style/print.css" type="text/css" rel="stylesheet" media="print"/>
+    <meta name="GENERATOR" content="XEmacs mmm-mode (psgml-mode + cperl-mode), HTML::Mason"/>
+  <link rel="home"   href="http://www.pdxlinux.org/"            title="http://www.pdxlinux.org/"/>
+  <link rel="search" href="http://www.pdxlinux.org/search.html" title="Search PDXlinux.ORG"/>
+    <script type="text/javascript" language="JavaScript1.2" src="/script/rattleimage.js"></script>
+  <title>PLUG - 
+Meeting -- Presentations from 2003
+</title>
+ </head>
+  <body>
+   <!-- Only non-standards-compliant browsers should see the following message -->
+   <!-- Taken from http://www.wired.com/ Thanks wired! -->
+   <p class="standardsNote">
+    <strong>Note:</strong> Our content is (eventually going to be)
+    accessible to all versions of every browser.  However, this
+    browser may not support basic Web standards, preventing the
+    display of our site's design details.  We support the mission of
+    the Web Standards Project in the
+
+    <a href="http://www.webstandards.org/upgrade/">campaign</a>,
+
+    encouraging users to upgrade their browsers.
+
+    (<a href="http://www.wired.com/news/explanation.html">Read More</a>)
+   </p>
+   <div id="TitleBar">
+    <map name="plugLogoMap">
+     <area shape="default" href="/" alt="Home"/>
+    </map>
+    <img src="/img/plug-logo-72bl-btn.png"
+	 alt="Home"
+	 title="PLUG Home"
+	 height="72" width="72"
+	 usemap="plugLogoMap"
+	 align="middle"
+	 border="0" hspace="0" vspace="0"/>
+    <span class="title">
+Presentations from 2003
+</span>
+    <!-- map name="underConstructionMap">
+     <area shape="default" href="http://bugs.pdxlinux.org/" alt="Bugs"/>
+    </map -->
+    <img id="underConstructionIMG"
+	 src="/img/oregon.gif"
+	 alt=""
+	 title="Under Construction!"
+	 height="72" width="95"
+	 usemap="underConstructionMap"
+	 align="middle"
+	 border="0" hspace="0" vspace="0"/>
+   </div>
+   <div id="NavBar"><!--
+    --><a href="/faq.html">FAQ</a> | <!--
+    --><a href="/articles/plug-history.html">History</a> | <!--
+    <a href="/articles/">Articles</a> |
+    --><a href="http://orlug.borked.us/">#orlug on IRC</a> | <!--
+    --><a href="/meeting/">Meetings</a> | <!--
+    <a href="/clinic/">Clinic</a> | 
+    --><a href="/resources/">Resources</a> | <!--
+    <a href="/search.html">Search</a> | 
+    --><!-- <a href="/webalizer/">Stats</a> | --> <!--
+    <a href="http://lists.pdxlinux.org/mailman/listinfo">Mailing List</a> | 
+    --><a href="http://www.pdxlinux.org/mail/">Mailing Lists</a> | <!--
+    <a href="http://server.riverdale.k12.or.us/~danh/">Clinic</a> |
+    --><a href="http://www.riverdale.k12.or.us/linux/">PLUG for Education</a><!--
+    <a href="http://cvs.pdxlinux.org/">CVS</a>
+    -->
+   </div>
+    <!DOCTYPE div PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <div class="contentbody">
 
  <dl>
   <dt>
-%# This is a mockup.  It will be totally dynamicly generated at some
-%# point.  You will be able to just drop in
-%# a new file and it will show up without touching this file.  There
-%# will be a script that can generate the email for the announcement
-%# also...  The magic of CSS will make that possible.
    <a href="gm-2003-01-02.html">2003/01/02</a>
   </dt>
   <dd>
-   <& gm-2003-01-02.html:ABSTRACT &>
+   
+<p>
+ <b>Presentation:</b> Short Reviews and Discussion of Special Purpose Linux Distributions<br/>
+</p>
+<p>
+ We would like to have a number of people give short reviews (say
+ 10-15 minutes) of different special purpose distributions, such as
+ <em>Knoppix</em>, <em>DemoLinux</em>, <em>Smoothwall</em>,
+ <em>E-Smith</em>, <em>Netmax</em> ..., <em>Floppyfw</em>,
+ <em>Freesco</em>, <em>Trinux</em>, etc.
+</p>
+
   </dd>
  </dl>
  </dt>
@@ -20,7 +99,38 @@
   <dt>
    <a href="gm-2003-02-06.html">2003/02/06</a>
   <dd>
-    <& gm-2003-02-06.html:ABSTRACT &>
+    
+<p>
+<b>Presentation:</b> A Compressed File System for Linux<br/>
+presented by Shaun Savage <tt>&lt;savages@mozapps.org&gt;</tt>
+</a></i></font></span>
+</p>
+<p>
+ Shaun Savage presented his work on embedded Linux and CBD (Compressed
+ Block Device).
+<ul>
+<li>What is an embedded system?
+<li> Why use Linux for embedded system?
+<li> Embedded Design Concepts.
+<li> Linux filesystem overview.
+<li> How buffers and block device work.
+<li> Compressed Block Device   CBD
+<ul>
+<li> 1/3  the size 
+<li> Grub boot support
+<li> uses cache
+<li> secure
+<li> on demand decompression
+<li> build time compression
+<li> GPL kernel block device driver
+ </ul></ul>
+ <p>
+ Since he is unable to continue work on this project, he is
+ looking for someone to be the new maintainer. Further details can be
+ found at <a href="http://www.cbdlinux.org">http://www.cbdlinux.org</a>
+
+</p>
+
    </dd>
   </dl>
 
@@ -28,14 +138,44 @@
   <dt>
    <a href="gm-2003-03-06.html">2003/03/06</a>
   <dd>
-    <& gm-2003-03-06.html:ABSTRACT &>
+    
+<p>
+<b>Presentation:</b> Anatomy of a Network Attack<br/>
+   <span style="margin-left: 1em;">presented by
+   Doug Davis <tt>&lt;doug@got-roots.com&gt;</tt>
+   </a></font></span>
+</p>
+<p>
+ Doug Davis presented the steps of breaking the security on a network-attached
+ computer with the purpose of making people think more seriously about security.
+ </p>
+ <p>
+Presentation notes can be found at <a href="http://www.got-roots.com/security/">http://www.got-roots.com/security/</a>
+</p>
+
    </dd>
   </dl>
   <dl>
   <dt>
   <a href="gm-2003-04-03.html">2003/04/03</a>
   <dd>
-  <& gm-2003-04-03.html:ABSTRACT &>
+  
+<p>
+<b>Presentation:</b> "Teaching <i>Learning Perl</i>"<br/>
+   presented by Randal L. Schwartz <tt>&lt;merlyn@stonehenge.com&gt;</tt>
+</p>
+<p>
+ It's about 45 minutes or so on what I've learned over the years in
+ giving hundreds of presentations about Perl.  Not very much Perl
+ content, but lots of info about doing presentations -- useful for
+ those of you who are tapped for future PLUG meetings.  And it's funny.
+ I'll take Q&A at the end about presentations, Perl, my new Alpaca
+ book, or anything else I can answer.
+ </p>
+ <p>
+<a href="http://www.stonehenge.com">Home Page</a>
+</p>
+
   </dd>
   </dl>
 
@@ -43,7 +183,23 @@
   <dt>
   <a href="gm-2003-05-01.html">2003/05/01</a>
   <dd>
-  <& gm-2003-05-01.html:ABSTRACT &>
+  
+<p>
+<b>Presentation:</b> "The Open Source Bill"<br/>
+<span style="margin-left: 1em;">presented by
+Ken Barber <tt>&lt;pundit AT teleport DOT com&gt;</tt>
+   </a></font></span>
+</p>
+<p>
+House Bill 2892, the Open Source Bill, is a bill in the
+Oregon State House of Representatives to encourage government
+agencies to examine Open Source solutions to their needs
+before purchasing proprietary software.  It also promotes
+the use of open data formats.  Ken Barber who wrote House
+Bill 2892 will be in Portland to discuss this bill, and the
+role of Open Source software in government.
+ </p>
+
   </dd>
   </dl>
 
@@ -51,7 +207,21 @@
   <dt>
   <a href="gm-2003-06-05.html">2003/06/05</a>
   <dd>
-  <& gm-2003-06-05.html:ABSTRACT &>
+  
+<p>
+<b>Presentation:</b> "Helix DNA"<br/>
+<span style="margin-left: 1em;">presented by 
+Rob Lanphier <tt>&lt;robla AT real DOT com&gt;</tt> and Duncan Howard <tt>&lt;duncanh AT real DOT com&gt;</tt>
+   </a></i></font></span>
+</p>
+<p>
+Rob Lanphier and Duncan Howard from Real Networks will
+describe Helix DNA, the first open and comprehensive platform
+for digital media creation, delivery and play back.
+Notes for their presentation are on the New York Linux Users
+Group <a href="http://www.nylug.org/meetings/index.shtml?20030300">web site</a>.
+ </p>
+
   </dd>
   </dl>
 
@@ -59,7 +229,27 @@
   <dt>
   <a href="gm-2003-07-03.html">2003/07/03</a>
   <dd>
-  <& gm-2003-07-03.html:ABSTRACT &>
+  
+<p>
+<b>Presentation:</b>"An Overview of the Open Source Development Lab"<br/>
+   <span style="margin-left: 1em;">presented by
+      Timothy D. Witham <tt>&#60;wookie AT osdl DOT org&#62;</tt>
+  </a></font></span>
+
+  <p>
+ The Open Source Development Lab (<a href="http://www.osdl.org">www.osdl.org</a>)  
+ is an industry sponsored lab with data centers in Portland, Oregon and
+ Yokohama, Japan.  The lab sponsors key industry projects,
+ including industry initiatives to enhance Linux for use in
+ corporate data centers (Data Center Linux) and in
+ telecommunications networks (Carrier Grade Linux).
+ Timothy D. Witham is the lab's director.  He will give a
+ general overview of the lab and it's activities and what
+ it can offer to Open Source developers.  I suppose he
+ will also talk about Linus Torvalds' decision to take a
+position with the lab.
+ </p>
+
  </dd>
   </dl>
 
@@ -67,7 +257,22 @@
   <dt>
   <a href="gm-2003-08-07.html">2003/08/07</a>
   <dd>
-  <& gm-2003-08-07.html:ABSTRACT &>
+  
+<p>
+<b>Presentation:</b>"An Overview of the Mandrake Security System"<br/>
+   <span style="margin-left: 1em;">presented by
+      Dale Zeutenhorst <tt>&#60;dale AT microsharp DOT com&#62;</tt>
+  </a></font></span>
+
+  <p>
+Dale Zeutenhorst has
+been kind enough to step up and lead a discussion of MSEC
+and prelude and other security features in Mandrake Linux.
+He has some good things to say, but he also says his
+presentation may be a bit short and he would be happy to
+share time with someone else with another short topic.
+ </p>
+
  </dd>
   </dl>
 
@@ -75,7 +280,21 @@
  <dt>
  <a href="gm-2003-09-04.html">2003/09/04</a>
  <dd>
- <& gm-2003-09-04.html:ABSTRACT &>
+ 
+<p>
+<b>Presentation:</b>"Software RAID on Linux"<br/>
+   <span style="margin-left: 1em;">presented by
+  by Fedor Pikus <tt>&#60;fedor_pikus AT mentorg DOT com&#62;</tt>
+  </a></font></span>
+
+  <p>
+Fedor will give a talk about Software RAID under Linux,
+ with practical demonstration of different types of raid
+ and their reaction to failing disks, reconstruction, etc.
+ </p><p>
+ Presentation notes can be found at <a href="http://www.pikus.net/~pikus/plug_softraid/">http://www.pikus.net/~pikus/plug_softraid/</a>
+ </p>
+
  </dd>
 </dl>
 
@@ -83,7 +302,20 @@
  <dt>
  <a href="gm-2003-10-02.html">2003/10/02</a>
  <dd>
- <& gm-2003-10-02.html:ABSTRACT &>
+ 
+<p>
+<b>Presentation:</b>"Comments on Forking a Linux Distribution"<br/>
+   <span style="margin-left: 1em;">presented by
+  by Zach Welch <tt>&#60;zwelch AT superlucidity DOT net&#62;</tt>
+  </a></font></span>
+
+  <p>
+ Zach Welch has been working on a fork of the Gentoo
+ distribution.  He will discuss issues involved in
+ building your own distribution.
+ </p><p>
+ </p>
+
 </dd>
 </dl>
 
@@ -91,7 +323,22 @@
 <dt>
 <a href="gm-2003-11-06.html">2003/11/06</a>
 <dd>
-<& gm-2003-11-06.html:ABSTRACT &>
+
+<p>
+<b>Presentation:</b> "A Few Linux Hacks"<br/>
+   <span style="margin-left: 1em;">presented by
+   by Rael Dornfest <tt>&#60;rael AT oreilly DOT com&#62;</tt>
+  </a></font></span>
+
+  <p>
+ Rael Dornfest is editor of O'Reilly's Hack Series.
+ We don't have many details on Rael's talk at this point, but
+ may be able to include some with the second announcement.
+ In any case, this is a great series of books; so we expect
+ the talk to be very enlightening.
+ </p><p>
+ </p>
+
 </dd>
 </dl>
 
@@ -99,40 +346,89 @@
 <dt>
 <a href="gm-2003-12-04.html">2003/12/04</a>
 <dd>
-<& gm-2003-12-04.html:ABSTRACT &>
+
+<p>
+  <b>Presentation:</b> "Introduction to LaTeX"<br/>
+  <span style="margin-left: 1em;">presented 
+  by Kevin Theobald <tt>&#60;kevintheobald AT vzavenue DOT net&#62;</tt>
+  </a></font></span>
+
+  <p>
+ Details to follow.
+ </p><p>
+  Presentation slides and related materials can be downloaded in a
+  <a href="../articles/plugtex.tgz">tarball from this server.</a>
+ </p>
+
 </dd>
 </dl>
 
 </div>
-<%method BROWSER_TITLE>
-Meeting -- Presentations from 2003
-</%method>
-<%method TITLE>
-Presentations from 2003
-</%method>
-<%method ABSTRACT>
-%# This should be brief -- One or two paragraphs maximum please.
-</%method>
-%#<%method ????></%method>
-<%method last_updated>
-<!-- Created: Sun Jul 21 21:33:22 PDT 2002 -->
-<!-- hhmts start -->
-Last modified: Wed Jan  8 18:55:45 PST 2003
-<!-- hhmts end -->
-</%method>
-%# Local variables:
-%# mode: xml
-%# mmm-classes: (mason embedded-css embedded-javascript)
-%# sgml-omittag:t
-%# sgml-shorttag:t
-%# sgml-namecase-general:t
-%# sgml-general-insert-case:lower
-%# sgml-minimize-attributes:nil
-%# sgml-always-quote-attributes:t
-%# sgml-indent-step:1
-%# sgml-indent-data:t
-%# sgml-parent-document:nil
-%# sgml-exposed-tags:nil
-%# sgml-local-catalogs:("/etc/sgml/catalog")
-%# sgml-local-ecat-files:("ECAT" "~/sgml/ECAT" "/usr/lib/sgml/ECAT" "/usr/local/lib/sgml/ECAT")
-%# End:
+
+   <div id="ReminderBar">
+    <b>Next PLUG <a href="/meeting/gm-2007-12-06.html">Meeting: 2007-12-06</a></b>
+    <!--
+    <map name="modperlMap">
+     <area shape="default" href="http://perl.apache.org/" alt=""/>
+    </map>
+    <img id="modperlIMG"
+	 title="perl.apache.org"
+	 src="/img/apache-mod_perl.gif"
+	 alt="mod_perl - - Speed, Power, Scalability"
+	 usemap="modperlMap"
+	 height="30" width="80"
+	 align="middle"
+	 border="0"/>
+    <map name="masonhqMap">
+     <area shape="default" href="http://www.masonhq.com/" alt=""/>
+    </map>
+    <img id="masonhqIMG"
+	 title="HTML::Mason"
+	 src="/img/powered_by_mason.jpg"
+	 alt="Powered by Mason"
+	 usemap="masonhqMap"
+	 height="31" width="88"
+	 align="middle"
+     border="0" hspace="2"/> -->
+    <!-- map name="debianMap">
+     <area shape="default" href="http://www.debian.org/" alt=""/>
+    </map>
+    <img id="debianIMG"
+	 title="Debian"
+	 src="/img/openlogo-nd-tr-25.png"
+	 usemap="debianMap"
+	 alt=""
+	 height="20" width="17"
+	 align="middle"
+	 border="0" hspace="0" vspace="0"/ -->
+    <span style="padding-left: 1em;"><b>Hosted by:</b></span>
+    <!-- <map name="microsharpMap">
+     <area shape="default" alt="" href="http://www.microsharp.com/"/>
+    </map>
+    <img id="mstiIMG"
+	 title="Micro Sharp Technology, Inc."
+	 src="/img/ad_microsharp.gif"
+	 alt="Micro Sharp"
+	 usemap="microsharpMap"
+	 height="20" width="160"
+	 align="middle"
+     border="0" hspace="0" vspace="0"/> -->
+     <a href="http://nakedape.cc">Naked Ape Consulting, Ltd.</a>
+   </div>
+   <div id="CopyrightFooter">
+    <!-- a href="https://bugs.pdxlinux.org/">
+     <b>&copy; 2002, 2003, 2004, PLUG Web Team</b>
+     <img class="rattle"
+	  title="Click to enter a site problem report!"
+	  onclick="top.focus()"
+	  onmouseover="rattleinit (this); rattleimage()"
+	  onmouseout="stoprattle (this); top.focus()"
+	  src="/img/bug.png"
+	  alt=""
+	  height="32" width="32"
+	  align="middle"
+	  border="0"/ -->
+    </a>
+   </div>
+  </body>
+</html>
